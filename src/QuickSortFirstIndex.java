@@ -74,20 +74,6 @@ public class QuickSortFirstIndex {
 			}
 		}
 	}
-	// Driver code
-	// public static void main(String args[])
-	// {
-	// 	// int arr[] = { 3, 10, 2, 4, 1, 5};
-	// 	int arr[] = {9,8,7,6,5,4,3,2,1,0};
-	// 	int n = arr.length;
-
-	// 	// Function calling
-	// 	quickSortIterative(arr, 0, n - 1);
-
-	// 	for (int i = 0; i < n; i++) {
-	// 		System.out.print(arr[i] + " ");
-	// 	}
-	// }
 }
 
 

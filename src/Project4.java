@@ -3,6 +3,8 @@ public class Project4{
         
         int inputArray [] = {10, 80, 30, 90, 40, 50, 70};
 
+        QuickSortFirstIndex.Exec(inputArray, 0, inputArray.length - 1);
+
         for(int i = 0; i < inputArray.length; i++){
         consoleLog(inputArray[i] + " ", true);
         }
