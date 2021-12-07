@@ -1,7 +1,7 @@
 public class Quicksort {
 
     public static void Exec(String testText) {
-
+        // 
         consoleLog("This is from Quicksort Class" + testText);
         
     }
