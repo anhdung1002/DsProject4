@@ -1,15 +1,12 @@
-// Java program for implementation of QuickSort
-import java.util.*;
-
-class QuickSortDemoMod {
+public class QuickSortFirstIndex {
+    // Java program for implementation of QuickSort
 	/* This function takes last element as pivot,
 	places the pivot element at its correct
 	position in sorted array, and places all
 	smaller (smaller than pivot) to left of
 	pivot and all greater elements to right
 	of pivot */
-	static int partition(int arr[], int low, int high)
-	{
+	static int partition(int arr[], int low, int high){
 		int pivot = arr[low];
 
 		// index of smaller element
@@ -36,9 +33,9 @@ class QuickSortDemoMod {
 	}
 
 	/* A[] --> Array to be sorted,
-l --> Starting index,
-h --> Ending index */
-	static void quickSortIterative(int arr[], int l, int h)
+    l --> Starting index,
+    h --> Ending index */
+	static void Exec(int arr[], int l, int h)
 	{
 		// Create an auxiliary stack
 		int[] stack = new int[h - l + 1];
@@ -78,18 +75,20 @@ h --> Ending index */
 		}
 	}
 	// Driver code
-	public static void main(String args[])
-	{
-		// int arr[] = { 3, 10, 2, 4, 1, 5};
-		int arr[] = {9,8,7,6,5,4,3,2,1,0};
-		int n = arr.length;
+	// public static void main(String args[])
+	// {
+	// 	// int arr[] = { 3, 10, 2, 4, 1, 5};
+	// 	int arr[] = {9,8,7,6,5,4,3,2,1,0};
+	// 	int n = arr.length;
 
-		// Function calling
-		quickSortIterative(arr, 0, n - 1);
+	// 	// Function calling
+	// 	quickSortIterative(arr, 0, n - 1);
 
-		for (int i = 0; i < n; i++) {
-			System.out.print(arr[i] + " ");
-		}
-	}
+	// 	for (int i = 0; i < n; i++) {
+	// 		System.out.print(arr[i] + " ");
+	// 	}
+	// }
 }
+
+
 
