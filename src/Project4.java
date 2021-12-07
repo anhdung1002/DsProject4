@@ -1,7 +1,7 @@
 public class Project4{
     public static void main(String[] args) {
         
-        int inputArray [] = {4, 5, 6, 7, 8, 9, 54, 3, 23, 1, 3, 6};
+        int inputArray [] = {10, 80, 30, 90, 40, 50, 70};
 
         for(int i = 0; i < inputArray.length; i++){
         consoleLog(inputArray[i] + " ", true);
