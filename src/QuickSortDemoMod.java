@@ -38,8 +38,10 @@ class QuickSortDemoMod {
 	/* A[] --> Array to be sorted,
 l --> Starting index,
 h --> Ending index */
-	static void quickSortIterative(int arr[], int l, int h)
+	static void quickSortIterative(int arr[])
 	{
+		int l = 0;
+		int h = arr.length - 1;
 		// Create an auxiliary stack
 		int[] stack = new int[h - l + 1];
 
@@ -85,7 +87,7 @@ h --> Ending index */
 		int n = arr.length;
 
 		// Function calling
-		quickSortIterative(arr, 0, n - 1);
+		quickSortIterative(arr);
 
 		for (int i = 0; i < n; i++) {
 			System.out.print(arr[i] + " ");

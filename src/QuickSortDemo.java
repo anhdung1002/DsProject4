@@ -78,8 +78,8 @@ h --> Ending index */
 	// Driver code
 	public static void main(String args[])
 	{
-		int arr[] = { 9, 8, 7, 6, 5, 4};
-		int n = 6;
+		int arr[] = { 9, 9, 9, 8, 7, 6, 6, 6, 5, 4};
+		int n = arr.length;
 
 		// Function calling
 		quickSortIterative(arr, 0, n - 1);

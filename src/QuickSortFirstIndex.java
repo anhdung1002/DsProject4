@@ -29,14 +29,16 @@ public class QuickSortFirstIndex {
 		arr[i] = arr[low];
 		arr[low] = temp;
 
-		return i + 1;
+		return i;
 	}
 
 	/* A[] --> Array to be sorted,
     l --> Starting index,
     h --> Ending index */
-	static void Exec(int arr[], int l, int h)
+	static void Exec(int arr[])
 	{
+        int l = 0;
+        int h = arr.length - 1;
 		// Create an auxiliary stack
 		int[] stack = new int[h - l + 1];
 
@@ -68,8 +70,8 @@ public class QuickSortFirstIndex {
 
 			// If there are elements on right side of pivot,
 			// then push right side to stack
-			if (p < h) {
-				stack[++top] = p;
+			if (p + 1 < h) {
+				stack[++top] = p + 1;
 				stack[++top] = h;
 			}
 		}

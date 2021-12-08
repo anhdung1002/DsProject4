@@ -1,9 +1,9 @@
 public class Project4{
     public static void main(String[] args) {
         
-        int inputArray [] = {10, 80, 30, 90, 40, 50, 70};
+        int inputArray [] = {100, 100, 100, 80, 80, 30, 30, 90, 30, 40, 50, 70};
 
-        QuickSortFirstIndex.Exec(inputArray, 0, inputArray.length - 1);
+        QuickSortFirstIndex.Exec(inputArray);
 
         for(int i = 0; i < inputArray.length; i++){
         consoleLog(inputArray[i] + " ", true);
