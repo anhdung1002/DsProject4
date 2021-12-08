@@ -50,29 +50,34 @@ public class QuickSortPartition50 {
 		stack[++top] = h;
 
 		// Keep popping from stack while is not empty
-		while (top >= 0) {
+		while (top >= 0){
 			// Pop h and l
 			h = stack[top--];
 			l = stack[top--];
 
-			// Set pivot element at its correct position
-			// in sorted array
-			int p = partition(arr, l, h);
+			if(h - l > 3){
+				// Set pivot element at its correct position
+				// in sorted array
+				int p = partition(arr, l, h);
 
-			// If there are elements on left side of pivot,
-			// then push left side to stack
-			if (p - 1 > l) {
-				// stack[++top] = l;
-				// stack[++top] = p - 1;
-				stack[++top] = l;
-				stack[++top] = p - 1;
+				// If there are elements on left side of pivot,
+				// then push left side to stack
+				if (p - 1 > l) {
+					// stack[++top] = l;
+					// stack[++top] = p - 1;
+					stack[++top] = l;
+					stack[++top] = p - 1;
+				}
+
+				// If there are elements on right side of pivot,
+				// then push right side to stack
+				if (p + 1 < h) {
+					stack[++top] = p + 1;
+					stack[++top] = h;
+				}
 			}
-
-			// If there are elements on right side of pivot,
-			// then push right side to stack
-			if (p + 1 < h) {
-				stack[++top] = p + 1;
-				stack[++top] = h;
+			else{
+				System.out.println("Handle this later");
 			}
 		}
 	}
