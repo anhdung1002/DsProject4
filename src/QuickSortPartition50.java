@@ -55,7 +55,7 @@ public class QuickSortPartition50 {
 			h = stack[top--];
 			l = stack[top--];
 
-			if(h - l > 3){
+			if(h - l > 3){		//FIXME: change to 50
 				// Set pivot element at its correct position
 				// in sorted array
 				int p = partition(arr, l, h);
@@ -77,7 +77,7 @@ public class QuickSortPartition50 {
 				}
 			}
 			else{
-				System.out.println("Handle this later");
+				InsertionSort.Sort(arr, l, h);
 			}
 		}
 	}

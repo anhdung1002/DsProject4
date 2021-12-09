@@ -1,7 +1,7 @@
 public class Project4{
     public static void main(String[] args) {
         
-        int inputArray [] = {100, 100, 100, 80, 80, 30, 30, 90, 30, 40, 50, 70};
+        int inputArray [] = {100, 100, 80, 30, 30, 90, 65, 40, 70};
 
         // QuickSortFirstIndex.Exec(inputArray);
         QuickSortPartition50.Exec(inputArray);
