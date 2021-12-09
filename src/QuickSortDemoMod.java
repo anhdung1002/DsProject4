@@ -1,5 +1,4 @@
 // Java program for implementation of QuickSort
-import java.util.*;
 
 class QuickSortDemoMod {
 	/* This function takes last element as pivot,
