@@ -7,7 +7,7 @@ public class Project4{
         // int inputArray [] = {100, 100, 80, 30, 30, 90, 65, 40, 70};
 
         // QuickSortFirstIndex.Exec(inputArray);
-        QuickSortPartition50.Exec(inputArrayTest);
+        QuickSortMedianOfThree.Exec(inputArrayTest);
 
         for(int i = 0; i < inputArrayTest.length; i++){
         consoleLog(inputArrayTest[i] + " ", true);

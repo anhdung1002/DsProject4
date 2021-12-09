@@ -1,4 +1,4 @@
-public class QuickSortPartition50 {
+public class QuickSortMedianOfThree {
     // Java program for implementation of QuickSort
 	/* This function takes last element as pivot,
 	places the pivot element at its correct
@@ -7,7 +7,15 @@ public class QuickSortPartition50 {
 	pivot and all greater elements to right
 	of pivot */
 	static int partition(int arr[], int low, int high){
-		int pivot = arr[low];
+
+		// Find pivot
+		int midIdx = Math.floorDiv((high - low),2);
+		// Sort the pivot array
+		int pivotArr []  = {arr[low], arr[midIdx], arr[high]};
+		InsertionSort.Exec(pivotArr, 0, 2);
+
+
+		int pivot = pivotArr[1];
 
 		// index of smaller element
 		int i = (low);	// WAS low -1	
@@ -50,34 +58,29 @@ public class QuickSortPartition50 {
 		stack[++top] = h;
 
 		// Keep popping from stack while is not empty
-		while (top >= 0){
+		while (top >= 0) {
 			// Pop h and l
 			h = stack[top--];
 			l = stack[top--];
 
-			if(h - l >= 49 ){
-				// Set pivot element at its correct position
-				// in sorted array
-				int p = partition(arr, l, h);
+			// Set pivot element at its correct position
+			// in sorted array
+			int p = partition(arr, l, h);
 
-				// If there are elements on left side of pivot,
-				// then push left side to stack
-				if (p - 1 > l) {
-					// stack[++top] = l;
-					// stack[++top] = p - 1;
-					stack[++top] = l;
-					stack[++top] = p - 1;
-				}
-
-				// If there are elements on right side of pivot,
-				// then push right side to stack
-				if (p + 1 < h) {
-					stack[++top] = p + 1;
-					stack[++top] = h;
-				}
+			// If there are elements on left side of pivot,
+			// then push left side to stack
+			if (p - 1 > l) {
+				// stack[++top] = l;
+				// stack[++top] = p - 1;
+				stack[++top] = l;
+				stack[++top] = p - 1;
 			}
-			else{
-				InsertionSort.Exec(arr, l, h);
+
+			// If there are elements on right side of pivot,
+			// then push right side to stack
+			if (p + 1 < h) {
+				stack[++top] = p + 1;
+				stack[++top] = h;
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 public class InsertionSort {
     // Java program for implementation of Insertion Sort
     /*Function to sort array using insertion sort*/
-    static void Sort(int arr[], int low, int high)
+    static void Exec(int arr[], int low, int high)
     {
         for (int i = low; i <= high; ++i) {
             int key = arr[i];

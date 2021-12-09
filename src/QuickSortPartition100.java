@@ -1,4 +1,4 @@
-public class QuickSortPartition50 {
+public class QuickSortPartition100 {
     // Java program for implementation of QuickSort
 	/* This function takes last element as pivot,
 	places the pivot element at its correct
@@ -55,7 +55,7 @@ public class QuickSortPartition50 {
 			h = stack[top--];
 			l = stack[top--];
 
-			if(h - l >= 49 ){
+			if(h - l >= 99 ){
 				// Set pivot element at its correct position
 				// in sorted array
 				int p = partition(arr, l, h);
