@@ -7,7 +7,7 @@ public class Project4{
         // int inputArray [] = {100, 100, 80, 30, 30, 90, 65, 40, 70};
 
         // QuickSortFirstIndex.Exec(inputArray);
-        HeapSort.Exec(inputArrayTest);
+        HeapSort.Exec(inputArrayTest, inputArrayTest.length);
 
         for(int i = 0; i < inputArrayTest.length; i++){
         consoleLog(inputArrayTest[i] + " ", true);
