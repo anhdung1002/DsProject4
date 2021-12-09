@@ -1,13 +1,16 @@
+import java.io.*;
 public class Project4{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         
-        int inputArray [] = {100, 100, 80, 30, 30, 90, 65, 40, 70};
+        // Open reader
+        int inputArrayTest [] = CreateInput.Exec(new FileReader(args[0]));
+        // int inputArray [] = {100, 100, 80, 30, 30, 90, 65, 40, 70};
 
         // QuickSortFirstIndex.Exec(inputArray);
-        QuickSortPartition50.Exec(inputArray);
+        QuickSortPartition50.Exec(inputArrayTest);
 
-        for(int i = 0; i < inputArray.length; i++){
-        consoleLog(inputArray[i] + " ", true);
+        for(int i = 0; i < inputArrayTest.length; i++){
+        consoleLog(inputArrayTest[i] + " ", true);
         }
         consoleLog("");
 

@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Project4",
+            "request": "launch",
+            "mainClass": "Project4",
+            "projectName": "DsProject4_11e0a4bd",
+            "osx": {
+                "args": [
+                    "Input/ran50AN.dat",
+                    "Output.txt"
+                ]}
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSortDemo",
+            "request": "launch",
+            "mainClass": "QuickSortDemo",
+            "projectName": "DsProject4_11e0a4bd"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSortDemoMod",
+            "request": "launch",
+            "mainClass": "QuickSortDemoMod",
+            "projectName": "DsProject4_11e0a4bd"
+        }
+    ]
+}
