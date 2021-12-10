@@ -6,6 +6,9 @@ public class QuickSortFirstIndex {
 	smaller (smaller than pivot) to left of
 	pivot and all greater elements to right
 	of pivot */
+	static int compCount;
+	static int swapCount;
+
 	static int partition(int arr[], int low, int high){
 		int pivot = arr[low];
 
@@ -21,7 +24,10 @@ public class QuickSortFirstIndex {
 				int temp = arr[i];
 				arr[i] = arr[j];
 				arr[j] = temp;
+
+				swapCount++;
 			}
+			compCount++;
 		}
 
 		// swap arr[i+1] and arr[high] (or pivot)
@@ -35,7 +41,7 @@ public class QuickSortFirstIndex {
 	/* A[] --> Array to be sorted,
     l --> Starting index,
     h --> Ending index */
-	static void Exec(int arr[])
+	static SortStatistics Exec(int arr[])
 	{
         int l = 0;
         int h = arr.length - 1;
@@ -75,6 +81,13 @@ public class QuickSortFirstIndex {
 				stack[++top] = h;
 			}
 		}
+
+		SortStatistics result = new SortStatistics();
+		result.setNumCompare(compCount);
+		result.setNumSwap(swapCount);
+		result.setReturnArray(arr);
+
+		return result;
 	}
 }
 

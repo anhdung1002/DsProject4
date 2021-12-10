@@ -6,10 +6,15 @@ public class Project4{
         int inputArrayTest [] = CreateInput.Exec(new FileReader(args[0]));
         // int inputArray [] = {100, 100, 80, 30, 30, 90, 65, 40, 70};
 
-        // QuickSortFirstIndex.Exec(inputArray);
-        SortStatistics heap = HeapSort.Exec(inputArrayTest, inputArrayTest.length);
-        consoleLog(heap.getNumSwap());
-        consoleLog(heap.getNumCompare());
+        SortStatistics quickFirstIndex = QuickSortMedianOfThree.Exec(inputArrayTest);
+        consoleLog("Number of compares: " + quickFirstIndex.getNumCompare());
+        consoleLog("Number of swaps: " + quickFirstIndex.getNumSwap());
+
+        // SortStatistics heap = HeapSort.Exec(inputArrayTest, inputArrayTest.length);
+        // consoleLog(heap.getNumSwap());
+        // consoleLog(heap.getNumCompare());
+
+
 
         for(int i = 0; i < inputArrayTest.length; i++){
         consoleLog(inputArrayTest[i] + " ", true);
