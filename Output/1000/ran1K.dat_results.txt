@@ -1,0 +1,4 @@
+Filename: ran1K.dat
+Number of compares: 513092
+Number of swaps: 256270
+

@@ -1,0 +1,4 @@
+Filename: rev1K.dat
+Number of compares: 502175
+Number of swaps: 250772
+

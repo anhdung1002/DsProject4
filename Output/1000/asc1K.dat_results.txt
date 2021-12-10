@@ -1,0 +1,4 @@
+Filename: asc1K.dat
+Number of compares: 1012592
+Number of swaps: 256270
+
