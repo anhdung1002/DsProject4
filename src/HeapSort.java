@@ -2,7 +2,6 @@
 public class HeapSort {
     static int compCount = 0;
     static int swapCount = 0;
-
     // function build Max Heap where value
     // of each child is always smaller
     // than value of their parent
@@ -47,16 +46,18 @@ public class HeapSort {
             // if left child is smaller than
             // right child point index variable
             // to right child
-            if (index < (i - 1) && arr[index] < arr[index + 1])
-            // compCount++;
-            index++;
+            if (index < (i - 1) && arr[index] < arr[index + 1]){
+                compCount++;
+                index++;
+            }
     
             // if parent is smaller than child
             // then swapping parent with child
             // having higher value
-            if (index < i && arr[j] < arr[index])
-            // compCount++;
-            swap(arr, j, index);
+            if (index < i && arr[j] < arr[index]){
+                compCount++;
+                swap(arr, j, index);
+            }
     
             j = index;
     
@@ -65,6 +66,8 @@ public class HeapSort {
 
         SortStatistics result = new SortStatistics();
         result.setReturnArray(arr);
+        result.setNumSwap(swapCount);
+        result.setNumCompare(compCount);
 
         return result;
 

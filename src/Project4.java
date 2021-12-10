@@ -9,6 +9,7 @@ public class Project4{
         // QuickSortFirstIndex.Exec(inputArray);
         SortStatistics heap = HeapSort.Exec(inputArrayTest, inputArrayTest.length);
         consoleLog(heap.getNumSwap());
+        consoleLog(heap.getNumCompare());
 
         for(int i = 0; i < inputArrayTest.length; i++){
         consoleLog(inputArrayTest[i] + " ", true);
