@@ -1,3 +1,6 @@
+// The sorting algorithm used in this class is from
+// https://www.geeksforgeeks.org
+
 public class InsertionSort {
     // Java program for implementation of Insertion Sort
     /*Function to sort array using insertion sort*/

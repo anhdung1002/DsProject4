@@ -1,3 +1,6 @@
+// The sorting algorithm used in this class is from
+// https://www.geeksforgeeks.org
+
 public class QuickSortFirstIndex {
     // Java program for implementation of QuickSort
 	/* This function takes last element as pivot,

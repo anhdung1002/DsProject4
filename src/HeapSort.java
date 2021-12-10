@@ -1,3 +1,6 @@
+// The sorting algorithm used in this class is from
+// https://www.geeksforgeeks.org
+
 // Java implementation of Iterative Heap Sort
 public class HeapSort {
     static int compCount = 0;
