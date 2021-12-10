@@ -1,0 +1,22 @@
+Filename: rev5K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 47437119
+Number of swaps: 7517374
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 59934619
+Number of swaps: 7517374
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 72432119
+Number of swaps: 7517374
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 84929619
+Number of swaps: 7517374
+
+Heap Sort
+Number of compares: 97427119
+Number of swaps: 7517374
+

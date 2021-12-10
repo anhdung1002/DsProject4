@@ -1,22 +1,22 @@
-Filename: asc1K.dat
+Filename: asc2K.dat
 
 Quick Sort with First Index Pivot
-Number of compares: 4926728
+Number of compares: 8923728
 Number of swaps: 256466
 
 Quick Sort then Insertion Sort with Parition of 50
-Number of compares: 5426228
+Number of compares: 10922728
 Number of swaps: 256466
 
 Quick Sort then Insertion Sort with Parition of 100
-Number of compares: 5925728
+Number of compares: 12921728
 Number of swaps: 256466
 
 Quick Sort with Median of Three as Pivot
-Number of compares: 6425228
+Number of compares: 14920728
 Number of swaps: 256466
 
 Heap Sort
-Number of compares: 6924728
+Number of compares: 16919728
 Number of swaps: 256466
 

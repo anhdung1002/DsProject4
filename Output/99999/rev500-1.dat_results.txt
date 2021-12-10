@@ -1,0 +1,22 @@
+Filename: rev500-1.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 1122097950
+Number of swaps: 32824169
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 1122222700
+Number of swaps: 32824169
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 1122347450
+Number of swaps: 32824169
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 1122472200
+Number of swaps: 32824169
+
+Heap Sort
+Number of compares: 1122596950
+Number of swaps: 32824169
+

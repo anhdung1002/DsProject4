@@ -1,0 +1,22 @@
+Filename: ran500.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 901505867
+Number of swaps: 32638436
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 901628677
+Number of swaps: 32638447
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 901751487
+Number of swaps: 32638458
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 901874297
+Number of swaps: 32638469
+
+Heap Sort
+Number of compares: 901997107
+Number of swaps: 32638480
+

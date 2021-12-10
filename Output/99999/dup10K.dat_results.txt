@@ -1,0 +1,22 @@
+Filename: dup10K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 902143950
+Number of swaps: 32712025
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 945935359
+Number of swaps: 32713290
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 989726768
+Number of swaps: 32714555
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 1033518177
+Number of swaps: 32715820
+
+Heap Sort
+Number of compares: 1077309586
+Number of swaps: 32717085
+

@@ -5,13 +5,6 @@ public class CreateInput {
     public static int [] Exec(FileReader inputFile) throws IOException {
         // Populate the array from the inputFile
         BufferedReader reader = new BufferedReader(inputFile);
-    
-                    // Case 1
-                    // String input = reader.readLine();
-                    // // input = input.trim();
-                    // String inputArr [] = input.split("\s\s*");
-                    // int size = inputArr.length;
-
 
             String inputArr [] = new String [10000]; 
             int i = 0;
@@ -42,13 +35,5 @@ public class CreateInput {
                 return intArray;
             }
 
-
-            // inputArr = input.split("\n");
-            // size = inputArr.length;
-
-        // int inputArray [] = new int [size];
-        // for(int i = 0; i < size; i++){
-        //     inputArray[i] = Integer.parseInt(inputArr[i]);
-        // }
     }
 }

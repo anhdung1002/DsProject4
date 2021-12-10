@@ -1,0 +1,22 @@
+Filename: asc10K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 499597805
+Number of swaps: 32558096
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 549592805
+Number of swaps: 32558096
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 599587805
+Number of swaps: 32558096
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 649582805
+Number of swaps: 32558096
+
+Heap Sort
+Number of compares: 699577805
+Number of swaps: 32558096
+

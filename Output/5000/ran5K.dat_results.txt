@@ -1,0 +1,22 @@
+Filename: ran5K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 97498537
+Number of swaps: 7553180
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 107408979
+Number of swaps: 7554409
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 117319421
+Number of swaps: 7555638
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 127229863
+Number of swaps: 7556867
+
+Heap Sort
+Number of compares: 137140305
+Number of swaps: 7558096
+

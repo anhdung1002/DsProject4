@@ -1,0 +1,22 @@
+Filename: ran10K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 699727011
+Number of swaps: 32630570
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 749722011
+Number of swaps: 32630570
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 799717011
+Number of swaps: 32630570
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 849712011
+Number of swaps: 32630570
+
+Heap Sort
+Number of compares: 899707011
+Number of swaps: 32630570
+

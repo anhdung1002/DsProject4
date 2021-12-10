@@ -1,0 +1,22 @@
+Filename: rev10K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 249622805
+Number of swaps: 32558096
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 299617805
+Number of swaps: 32558096
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 349612805
+Number of swaps: 32558096
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 399607805
+Number of swaps: 32558096
+
+Heap Sort
+Number of compares: 449602805
+Number of swaps: 32558096
+

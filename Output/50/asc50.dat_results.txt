@@ -1,5 +1,27 @@
 Filename: asc50.dat
+
+Quick Sort with First Index Pivot
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
 Number of compares: 1225
+Number of swaps: 0
+
+Quick Sort then Insertion Sort with Parition of 50
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Number of compares: 2450
+Number of swaps: 0
+
+Quick Sort then Insertion Sort with Parition of 100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Number of compares: 3675
+Number of swaps: 0
+
+Quick Sort with Median of Three as Pivot
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Number of compares: 4900
+Number of swaps: 0
+
+Heap Sort
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 
+Number of compares: 6125
 Number of swaps: 0
 

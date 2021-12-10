@@ -1,0 +1,22 @@
+Filename: asc500.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 1077434336
+Number of swaps: 32717085
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 1077559086
+Number of swaps: 32717085
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 1077683836
+Number of swaps: 32717085
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 1077808586
+Number of swaps: 32717085
+
+Heap Sort
+Number of compares: 1077933336
+Number of swaps: 32717085
+

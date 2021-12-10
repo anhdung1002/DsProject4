@@ -1,0 +1,22 @@
+Filename: rev2K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 26943619
+Number of swaps: 1267374
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 28942619
+Number of swaps: 1267374
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 30941619
+Number of swaps: 1267374
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 32940619
+Number of swaps: 1267374
+
+Heap Sort
+Number of compares: 34939619
+Number of swaps: 1267374
+

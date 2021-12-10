@@ -33,27 +33,49 @@ public class Sorts {
                 FileWriter outWriter = new FileWriter(outFolderPath + "/" + listOfDatFiles[i].getName() + "_results.txt");
 
                 System.out.println("Filename: " + listOfDatFiles[i].getName());
-                outWriter.write("Filename: " + listOfDatFiles[i].getName() + "\n");
+                outWriter.write("Filename: " + listOfDatFiles[i].getName() + "\n\n");
                 int inputArray [] = CreateInput.Exec(new FileReader(listOfDatFiles[i]));
 
-                // QuickSortFirstIndex
+                // Quick Sort with First Index Pivot
                 SortStatistics qsFirstIdx =  QuickSortFirstIndex.Exec(inputArray);
+                outWriter.write("Quick Sort with First Index Pivot\n");
                 if(m == 0)
                     printResults(outWriter, qsFirstIdx, true);
                 else
                 printResults(outWriter, qsFirstIdx, false);
 
+                // Quick Sort then Insertion Sort with Parition of 50
+                SortStatistics qsPartition50 =  QuickSortFirstIndex.Exec(inputArray);
+                outWriter.write("Quick Sort then Insertion Sort with Parition of 50\n");
+                if(m == 0)
+                    printResults(outWriter, qsPartition50, true);
+                else
+                printResults(outWriter, qsPartition50, false);
 
+                // Quick Sort then Insertion Sort with Parition of 100
+                SortStatistics qsPartition100 =  QuickSortFirstIndex.Exec(inputArray);
+                outWriter.write("Quick Sort then Insertion Sort with Parition of 100\n");
+                if(m == 0)
+                    printResults(outWriter, qsPartition100, true);
+                else
+                printResults(outWriter, qsPartition100, false);
 
+                // Quick Sort with Median of Three as Pivot
+                SortStatistics qsMedianOfThree =  QuickSortFirstIndex.Exec(inputArray);
+                outWriter.write("Quick Sort with Median of Three as Pivot\n");
+                if(m == 0)
+                    printResults(outWriter, qsMedianOfThree, true);
+                else
+                printResults(outWriter, qsMedianOfThree, false);
 
-
-
-
-
-
-
-
-
+                // Heap Sort
+                SortStatistics heap =  QuickSortFirstIndex.Exec(inputArray);
+                outWriter.write("Heap Sort\n");
+                if(m == 0)
+                    printResults(outWriter, heap, true);
+                else
+                printResults(outWriter, heap, false);
+                
                 outWriter.close();
             }
 

@@ -1,0 +1,22 @@
+Filename: dup2K.dat
+
+Quick Sort with First Index Pivot
+Number of compares: 1123076629
+Number of swaps: 32841037
+
+Quick Sort then Insertion Sort with Parition of 50
+Number of compares: 1124853865
+Number of swaps: 32841271
+
+Quick Sort then Insertion Sort with Parition of 100
+Number of compares: 1126631101
+Number of swaps: 32841505
+
+Quick Sort with Median of Three as Pivot
+Number of compares: 1128408337
+Number of swaps: 32841739
+
+Heap Sort
+Number of compares: 1130185573
+Number of swaps: 32841973
+
