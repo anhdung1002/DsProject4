@@ -2,8 +2,12 @@ import java.io.*;
 public class Project4{
     public static void main(String[] args) throws IOException{
         String path = "/Users/andynguyen/John Hopkins Classes/Data Structure/Project 4/DsProject4/Input";
+        int folders [] =  {50, 1000};
 
-        Sorts.Exec(path);
+        Sorts.Exec(path, folders);
+
+
+
 
 
 
