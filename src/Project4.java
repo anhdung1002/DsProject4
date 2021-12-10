@@ -10,16 +10,22 @@ public class Project4{
         consoleLog("Number of compares: " + quickFirstIndex.getNumCompare());
         consoleLog("Number of swaps: " + quickFirstIndex.getNumSwap());
 
+
+
+
+
+        
+
         // SortStatistics heap = HeapSort.Exec(inputArrayTest, inputArrayTest.length);
         // consoleLog(heap.getNumSwap());
         // consoleLog(heap.getNumCompare());
 
 
 
-        for(int i = 0; i < inputArrayTest.length; i++){
-        consoleLog(inputArrayTest[i] + " ", true);
-        }
-        consoleLog("");
+        // for(int i = 0; i < inputArrayTest.length; i++){
+        // consoleLog(inputArrayTest[i] + " ", true);
+        // }
+        // consoleLog("");
 
         
 
