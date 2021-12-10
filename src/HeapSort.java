@@ -1,5 +1,7 @@
 // Java implementation of Iterative Heap Sort
 public class HeapSort {
+    static int compCount = 0;
+    static int swapCount = 0;
 
     // function build Max Heap where value
     // of each child is always smaller
@@ -24,7 +26,7 @@ public class HeapSort {
         }
     }
     
-    static void Exec(int arr[], int n)
+    static SortStatistics Exec(int arr[], int n)
     {
         buildMaxHeap(arr, n);
     
@@ -46,49 +48,38 @@ public class HeapSort {
             // right child point index variable
             // to right child
             if (index < (i - 1) && arr[index] < arr[index + 1])
+            // compCount++;
             index++;
     
             // if parent is smaller than child
             // then swapping parent with child
             // having higher value
             if (index < i && arr[j] < arr[index])
+            // compCount++;
             swap(arr, j, index);
     
             j = index;
     
         } while (index < i);
         }
+
+        SortStatistics result = new SortStatistics();
+        result.setReturnArray(arr);
+
+        return result;
+
+
     }
     
     public static void swap(int[] a, int i, int j) {
         int temp = a[i];
         a[i]=a[j];
         a[j] = temp;
+        swapCount++;
     }
     
-    /* A utility function to print array of size n */
-    // static void printArray(int arr[])
-    // {
-    //     int n = arr.length;
-    //     for (int i = 0; i < n; i++)
-    //     System.out.print(arr[i] + " ");
-    //     System.out.println();
-    // }
-    
-    // Driver program
-    // public static void main(String args[])
-    // {
-    //     int arr[] = {10, 20, 15, 17, 9, 21};
-    //     int n = arr.length;
-    
-    //     System.out.print("Given array: ");
-    //     printArray(arr);
-    
-    //     heapSort(arr, n);
-    
-    //     System.out.print("Sorted array: ");
-    //     printArray(arr);
-    // }
+   
+
     }
     
     
